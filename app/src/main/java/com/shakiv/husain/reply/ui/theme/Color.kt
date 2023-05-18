@@ -5,14 +5,6 @@ import androidx.compose.ui.graphics.Color
 // Generate them via theme builder
 // https://material-foundation.github.io/material-theme-builder/#/custom
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
-
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
-
 val md_theme_light_primary = Color(0xFF825500)
 val md_theme_light_onPrimary = Color(0xFFFFFFFF)
 val md_theme_light_primaryContainer = Color(0xFFFFDDB3)
@@ -70,10 +62,6 @@ val md_theme_dark_outline = Color(0xFF9C8F80)
 val md_theme_dark_inverseOnSurface = Color(0xFF1F1B16)
 val md_theme_dark_inverseSurface = Color(0xFFEAE1D9)
 val md_theme_dark_inversePrimary = Color(0xFF825500)
-val md_theme_dark_shadow = Color(0xFF000000)
 val md_theme_dark_surfaceTint = Color(0xFFFFB951)
 val md_theme_dark_outlineVariant = Color(0xFF4F4539)
 val md_theme_dark_scrim = Color(0xFF000000)
-
-
-val seed = Color(0xFF825500)
