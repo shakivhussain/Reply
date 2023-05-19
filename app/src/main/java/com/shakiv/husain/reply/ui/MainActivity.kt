@@ -15,20 +15,15 @@ import androidx.compose.ui.unit.dp
 import com.shakiv.husain.reply.data.LocalEmailsDataProvider
 import com.shakiv.husain.reply.ui.theme.ReplyTheme
 
-
 class MainActivity : ComponentActivity() {
 
     private val viewModel: ReplyHomeViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setContent {
-
             val uiState by viewModel.uiState.collectAsState()
-
             ReplyTheme {
-
                 Surface(
                     tonalElevation = 5.dp
                 ) {
