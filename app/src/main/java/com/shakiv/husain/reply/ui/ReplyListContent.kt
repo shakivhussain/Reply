@@ -27,7 +27,6 @@ import com.shakiv.husain.reply.ui.components.ReplyEmailListItem
 import com.shakiv.husain.reply.ui.components.ReplyEmailThreadItem
 import com.shakiv.husain.reply.ui.components.ReplySearchBar
 
-
 @Composable
 fun ReplyInboxScreen(
     replyHomeUIState: ReplyHomeUIState,
@@ -35,9 +34,7 @@ fun ReplyInboxScreen(
     navigateToDetail: (Long) -> Unit,
     modifier: Modifier = Modifier
 ) {
-
     val emailLazyListState = rememberLazyListState()
-
     Box(modifier = modifier.fillMaxSize()) {
         ReplyEmailListContent(
             replyHomeUIState = replyHomeUIState,
@@ -48,7 +45,7 @@ fun ReplyInboxScreen(
         )
 
         LargeFloatingActionButton(
-            onClick = { /*Click Implementation*/ },
+            onClick = {},
             containerColor = MaterialTheme.colorScheme.tertiaryContainer,
             contentColor = MaterialTheme.colorScheme.onTertiaryContainer,
             modifier = Modifier
