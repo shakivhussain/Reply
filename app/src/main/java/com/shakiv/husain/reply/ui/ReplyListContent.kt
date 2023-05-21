@@ -43,7 +43,6 @@ fun ReplyInboxScreen(
             closeDetailScreen = closeDetailScreen,
             navigateToDetail = navigateToDetail
         )
-
         LargeFloatingActionButton(
             onClick = {},
             containerColor = MaterialTheme.colorScheme.tertiaryContainer,
